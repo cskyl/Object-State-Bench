@@ -14,7 +14,7 @@ This repository implements the fully automatic synthetic data generation and fin
 
 ## Pipeline Illustration
 
-![Pipeline Illustration](doc/pipeline.pdf) 
+![Pipeline Illustration](doc/pipeline.png) 
 
 ---
 
