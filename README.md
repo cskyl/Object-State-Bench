@@ -42,13 +42,13 @@ pip install \
 git clone https://github.com/your-org/object-state-pipeline.git
 cd object-state-pipeline
 ```
-# 1. Dry‑run prompt & image generation
+### 1. Dry‑run prompt & image generation
 ```bash
 # Generate the first 5 prompts and their images, then exit:
 python pipeline.py \
   --api_key YOUR_OPENAI_KEY \
 ```
-# 2. Full pipeline with filtering & recaptioning
+### 2. Full pipeline with filtering & recaptioning
 ```bash
 python pipeline.py \ 
   --experiment_folder experiments/v1 \ 
@@ -60,7 +60,7 @@ python pipeline.py \
   --image_recaptioner GPT4VImageRecaptioner \ 
   --num_images_per_prompt 7
 ```
-# 3. Skip recaptioning (use original prompts)
+### 3. Skip recaptioning (use original prompts)
 ```bash
 python run_pipeline.py \
   --api_key YOUR_OPENAI_KEY \
